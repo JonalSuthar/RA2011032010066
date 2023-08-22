@@ -1,0 +1,50 @@
+
+body{
+  background-color: aquamarine;
+  text-align:center;
+}
+.train-info {
+  display: flex;
+  flex-wrap: wrap; 
+  background-image: url('/train.jpg');
+  gap: 20px;
+  justify-content: space-between; 
+  padding: 20px;
+  background-color: white;
+}
+
+
+.train-info div {
+  background-color: wheat;
+  flex-basis: calc(25% - 20px); 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.train-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.train-info p {
+  margin: 5px 0;
+}
+
+.train-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.train-info li {
+  margin: 5px 0;
+}
+
+.train-info p.loading {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #999;
+}
